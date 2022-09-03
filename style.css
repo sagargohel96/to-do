@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 78, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.txtInp {
+  border-radius: 5px !important;
+}
+.addedTask {
+  background-color: aliceblue;
+  height: auto;
+  width: 50vw;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid cyan;
+  border-radius: 10px;
+}
+.dltbtn {
+  border: 1px solid red;
+  top: 20px;
+  right: 20px;
+}
